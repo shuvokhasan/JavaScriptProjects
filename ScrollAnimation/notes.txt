@@ -1,0 +1,14 @@
+CSS:
+    1. transform: translateX(600%);
+    2. transition: transform .4s ease;
+    3. .box:nth-of-type(even){
+            .
+            .
+            .
+        }
+
+
+JS:
+    1. document.addEventListener('scroll', boxPosition);
+    2. getBoundingClientRect().top;
+    3. window.innerHeight;

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 15rem;
+    height: 15rem;
+    width: 20rem;
+    background-color: #90CAF9;
+    margin: 1rem;
+    border-radius: 8px;
+    transform: translateX(600%);
+    transition: transform .4s ease;
+}
+
+.box h2{
+    font-size: 2rem;
+}
+
+.box:nth-of-type(even){
+    transform: translateX(-600%);
+}
+
+.box.active{
+    transform: translateX(0);
+}
